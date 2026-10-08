@@ -7,16 +7,14 @@ if (btnMenu && menu) {
         menu.classList.toggle('abierto'); 
     });
 
-    // Accesibilidad: Cerrar menú desplegable al presionar 'Escape'
     document.addEventListener('keydown', (evento) => {
         if (evento.key === 'Escape' && menu.classList.contains('abierto')) {
             menu.classList.remove('abierto');
-            btnMenu.focus(); // Devuelve el foco al botón del menú
+            btnMenu.focus(); 
         }
     });
 }
 
-// --- MODO OSCURO / CLARO (DEFAULT: OSCURO) ---
 document.addEventListener('DOMContentLoaded', () => {
     const toggleDarkMode = document.querySelector('#dark-mode-toggle');
 

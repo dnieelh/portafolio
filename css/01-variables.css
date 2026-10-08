@@ -1,4 +1,3 @@
-/* Custom properties (colores base oscuros por defecto) */
 :root {
   --fondo: #0b1220;
   --texto: #e2e8f0;
@@ -7,7 +6,6 @@
   --font-principal: system-ui, sans-serif;
 }
 
-/* Modo claro cuando se active la clase dark (o puedes renombrarla a light si prefieres iniciar en claro) */
 html.dark {
   --fondo: #f8fafc;
   --texto: #0f172a;

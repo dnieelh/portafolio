@@ -1,18 +1,18 @@
 # Daniel Antuan Zamora Huerta — Portafolio Web
-Sitio web personal y portafolio profesional construido con HTML5 semántico, CSS3 modular (mobile-first) y JavaScript vanilla. Diseñado para ser accesible, ultra rápido, elegante y completamente adaptativo (*responsive*).
+Sitio web personal y portafolio profesional construido con HTML5 semántico, CSS3 modular (mobile-first) y JavaScript vanilla. Diseñado para ser accesible, ultra rápido, elegante y completamente adaptativo.
 
 ## Demo en Vivo
-> **Enlace al portafolio:** [https://tu-usuario.github.io/portafolio](https://tu-usuario.github.io/portafolio) *(Reemplaza este enlace con tu URL de GitHub Pages, Netlify o Vercel)*
+> **Enlace al portafolio:** [https://tu-usuario.github.io/portafolio](https://tu-usuario.github.io/portafolio) 
 
 ---
 
 ## Auditoría de Calidad (Google Lighthouse)
 El sitio fue optimizado y auditado bajo los criterios de rendimiento, accesibilidad, buenas prácticas y SEO de Google Lighthouse, alcanzando la puntuación máxima perfecta:
 
-- 🟢 **Performance:** 100 / 100
-- 🟢 **Accessibility:** 100 / 100
-- 🟢 **Best Practices:** 100 / 100
-- 🟢 **SEO:** 100 / 100
+-  **Performance:** 100 / 100
+-  **Accessibility:** 100 / 100
+-  **Best Practices:** 100 / 100
+-  **SEO:** 100 / 100
 
 ---
 

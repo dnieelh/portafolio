@@ -1,4 +1,3 @@
-/* Grid + Flexbox del layout principal */
 header,
 main,
 footer {
@@ -44,7 +43,6 @@ section {
   gap: 2rem;
 }
 
-/* Alinear contenedor derecho de la barra de navegación */
 .nav-derecha {
   display: flex;
   align-items: center;
