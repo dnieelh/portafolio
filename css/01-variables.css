@@ -1,0 +1,16 @@
+/* Custom properties (colores base oscuros por defecto) */
+:root {
+  --fondo: #0b1220;
+  --texto: #e2e8f0;
+  --primario: #34d399;
+  --fondo-tarjeta: rgba(255, 255, 255, 0.05);
+  --font-principal: system-ui, sans-serif;
+}
+
+/* Modo claro cuando se active la clase dark (o puedes renombrarla a light si prefieres iniciar en claro) */
+html.dark {
+  --fondo: #f8fafc;
+  --texto: #0f172a;
+  --primario: #047857;
+  --fondo-tarjeta: rgba(0, 0, 0, 0.03);
+}

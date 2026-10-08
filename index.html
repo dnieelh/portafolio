@@ -1,0 +1,230 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Daniel Antuan Zamora Huerta | Portafolio</title>
+    <meta
+      name="description"
+      content="Portafolio profesional de Daniel Zamora, estudiante del IPN enfocado en desarrollo web, computación y ciencias exactas."
+    />
+    <link rel="stylesheet" href="css/00-reset.css" />
+    <link rel="stylesheet" href="css/01-variables.css" />
+    <link rel="stylesheet" href="css/02-tipografia.css" />
+    <link rel="stylesheet" href="css/03-layout.css" />
+    <link rel="stylesheet" href="css/04-componentes.css" />
+    <link rel="stylesheet" href="css/05-utilidades.css" />
+    <link rel="stylesheet" href="css/06-responsive.css" />
+  </head>
+  <body>
+    <a href="#contenido-principal" class="skip-link">Contenido principal</a>
+    <header class="cabecera">
+      <nav class="navbar">
+        <strong class="logo">DANIEL ZAMORA</strong>
+
+        <div class="nav-derecha">
+          <button
+            id="dark-mode-toggle"
+            class="btn-modo"
+            aria-label="Cambiar modo oscuro"
+          >
+            🌓
+          </button>
+
+          <!-- Botón Menú Hamburguesa -->
+          <button id="menu-toggle" class="menu-toggle" aria-label="Abrir menú">
+            ☰
+          </button>
+        </div>
+
+        <ul id="menu" class="menu">
+          <li><a href="#sobre-mi">Sobre mí</a></li>
+          <li><a href="#proyectos">Proyectos</a></li>
+          <li><a href="#habilidades">Logros y Habilidades</a></li>
+          <li><a href="#contacto">Contacto</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main id="contenido-principal">
+      <!-- SECCIÓN INICIO -->
+      <section class="hero-grid">
+        <div class="hero-texto">
+          <h1>HOLA,SOY DANIEL ZAMORA.</h1>
+          <p>
+            Soy estudiante del IPN con un gran interés en las ciencias exactas.
+            Aunque actualmente curso la carrera de Técnico en Computación, mi
+            verdadera vocación y objetivo a futuro es estudiar Ingeniería
+            Química Industrial. Me apasiona resolver problemas, entender cómo
+            funcionan las cosas y el aprendizaje constante.
+          </p>
+          <div class="hero-enlaces">
+            <a href="#contacto" class="btn-primario">Contáctame</a>
+            <a
+              href="https://github.com/dnieelh"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="btn-secundario"
+              >Mi GitHub</a
+            >
+            <a
+              href="https://www.linkedin.com/in/daniel-antuan-zamora-huerta-265018420"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="btn-secundario"
+              >Mi LinkedIn</a
+            >
+          </div>
+        </div>
+        <figure class="hero-imagen-contenedor">
+          <!-- Reemplaza "foto-perfil.jpg" con tu foto real -->
+          <img src="images/mee.jpeg" alt="Foto de Daniel Zamora" class="img-fluida" width="400" height="400" loading="lazy" />
+        </figure>
+      </section>
+
+      <!-- SECCIÓN SOBRE MÍ Y LOGROS -->
+      <section class="dos-columnas" id="sobre-mi">
+        <div>
+          <h2>SOBRE MÍ</h2>
+          <p>
+            Siempre he creído que la ciencia y la tecnología son las mejores
+            herramientas para entender el mundo. Disfruto mucho de materias como
+            matemáticas, física y, sobre todo, química. Desarrollar software me
+            ha enseñado a ser estructurado y analítico, habilidades que pienso
+            llevar conmigo hacia la industria química.
+          </p>
+        </div>
+        <div id="habilidades">
+          <h2>TRAYECTORIA Y LOGROS</h2>
+          <ul class="lista-logros">
+            <li>
+              <strong>Trayectoria en el IPN:</strong> Mantengo un buen nivel
+              académico, enfocándome en las ciencias exactas para prepararme
+              hacia el nivel superior.
+            </li>
+            <li>
+              <strong>Inglés Certificado:</strong> Cuento con la certificación
+              B1 de la Universidad de Cambridge, lo que me permite investigar y
+              comunicarme en un entorno global.
+            </li>
+            <li>
+              <strong>Base Analítica:</strong> Conocimientos en programación
+              orientada a objetos (Java), HTML/CSS y bases de redes, lo que
+              fortalece mi lógica deductiva.
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- SECCIÓN PROYECTOS -->
+      <section id="proyectos" class="seccion-proyectos">
+        <h2>PROYECTOS RECIENTES</h2>
+        <p class="subtitulo">
+          Una muestra de mis trabajos técnicos y prácticas en desarrollo.
+        </p>
+
+        <!-- Proyecto 1: Braille -->
+        <article class="proyecto-fila">
+          <figure class="proyecto-imagen">
+            <!-- Puedes poner una captura de pantalla del traductor aquí -->
+            <img src="images/braille.jpeg" 
+            alt="Proyecto Traductor Braille" 
+            class="img-fluida" 
+            width="600" 
+            height="400" 
+            loading="lazy" />
+          </figure>
+          <div class="proyecto-info">
+            <h3>Traductor Braille</h3>
+            <p>
+              Aplicación desarrollada para convertir texto a lenguaje braille.
+              Un proyecto enfocado en la accesibilidad y en aplicar la lógica de
+              programación estructurada para resolver una necesidad real.
+            </p>
+          </div>
+        </article>
+
+        <!-- Proyecto 2: Sobre Mí -->
+        <article class="proyecto-fila">
+          <figure class="proyecto-imagen">
+            <!-- Captura de tu página sobre mí -->
+            <img src="images/smartdust.jpeg" 
+            alt="Proyecto Smart Dustbin" 
+            class="img-fluida" 
+            width="600" 
+            height="400" 
+            loading="lazy" />
+          </figure>
+          <div class="proyecto-info">
+            <h3>Smart Dustbin</h3>
+            <p>
+              Diseño, desarrollo y ensamblaje de un prototipo de bote de basura
+              automatizado capaz de diferenciar y clasificar de manera autónoma
+              entre residuos de papel y baterías. El sistema integra visión por
+              computadora y control de hardware para gestionar el proceso de
+              separación y mostrar el diagnóstico en tiempo real.
+            </p>
+          </div>
+        </article>
+
+        <!-- Proyecto 3: Repositorio Extra -->
+        <article class="proyecto-fila">
+          <figure class="proyecto-imagen">
+            <!-- Reemplazamos la imagen por un video en bucle y sin sonido -->
+            <video
+              src="video/ani.mp4"
+              autoplay
+              loop
+              muted
+              playsinline
+              preload="metadata"
+              class="img-fluida"
+            >
+              Tu navegador no soporta la reproducción de videos.
+            </video>
+          </figure>
+          <div class="proyecto-info">
+            <h3>Animación Digital</h3>
+            <p>
+              Creación y desarrollo de una animación 2D de un planeta, elaborada
+              como parte de la materia de diseño. Este proyecto aborda el
+              proceso completo de producción visual, desde la conceptualización
+              estética y el diseño de elementos visuales hasta la sincronización
+              de movimientos en la línea de tiempo.
+            </p>
+          </div>
+        </article>
+      </section>
+      <!-- AQUÍ FALTABA CERRAR LA SECCIÓN DE PROYECTOS -->
+
+      <!-- SECCIÓN CONTACTO -->
+      <!-- SECCIÓN CONTACTO -->
+      <section id="contacto" class="seccion-contacto">
+        <h2>CONTACTO</h2>
+        <p class="subtitulo">
+          ¿Tienes un proyecto en mente o te interesa mi perfil? Escríbeme
+          directamente a mi correo electrónico y me pondré en contacto contigo a
+          la brevedad.
+        </p>
+
+        <div class="contacto-directo">
+          <a
+            href="mailto:zamora.huerta.danielantuan@gmail.com?subject=Contacto%20desde%20Portafolio%20Web"
+            class="btn-primario"
+          >
+            Enviar un correo a Daniel Zamora
+          </a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="pie-pagina">
+      <p>
+        © 2026 Daniel Antuan Zamora Huerta. Hecho con lógica, código y un poco
+        de ciencia.
+      </p>
+    </footer>
+
+    <script src="js/app.js"></script>
+  </body>
+</html>

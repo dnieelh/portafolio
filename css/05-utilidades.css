@@ -1,0 +1,25 @@
+/* Clases de ayuda, accesibilidad (skip-link y cabecera fija) */
+.skip-link {
+  position: absolute;
+  top: -9999px;
+  left: 0;
+  background: var(--primario);
+  color: var(--fondo);
+  padding: 8px 16px;
+  z-index: 100;
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 0 0 8px 0;
+}
+
+.skip-link:focus {
+  top: 0;
+}
+
+.cabecera {
+  position: sticky;
+  top: 0;
+  background-color: var(--fondo);
+  z-index: 1000;
+  border-bottom: 1px solid rgba(226, 232, 240, 0.1);
+}

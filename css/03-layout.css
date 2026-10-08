@@ -1,0 +1,52 @@
+/* Grid + Flexbox del layout principal */
+header,
+main,
+footer {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 1.5rem;
+}
+
+section {
+  padding: 4rem 0;
+  border-bottom: 1px solid rgba(226, 232, 240, 0.1);
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+
+.menu {
+  display: none;
+  flex-direction: column;
+  width: 100%;
+  gap: 1rem;
+  list-style: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background: var(--fondo);
+  padding: 1rem 0;
+}
+
+.menu.abierto {
+  display: flex;
+}
+
+.hero-grid,
+.proyecto-fila,
+.dos-columnas {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2rem;
+}
+
+/* Alinear contenedor derecho de la barra de navegación */
+.nav-derecha {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}

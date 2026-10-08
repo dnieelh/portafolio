@@ -1,0 +1,26 @@
+/* Media queries */
+@media (min-width: 768px) {
+  .menu-toggle {
+    display: none;
+  }
+
+  .menu {
+    display: flex;
+    flex-direction: row;
+    position: static;
+    width: auto;
+    padding: 0;
+  }
+
+  .hero-grid,
+  .proyecto-fila,
+  .dos-columnas {
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    gap: 4rem;
+  }
+
+  .hero-imagen-contenedor {
+    margin-top: 0;
+  }
+}
